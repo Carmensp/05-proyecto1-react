@@ -27,7 +27,7 @@ function App() {
             <Listado listadoStage={listadoStage} setListadoStage={setListadoStage}/>
         </section>
         <aside className="lateral">
-            <Buscador/>
+            <Buscador listadoStage={listadoStage} setListadoStage={setListadoStage}/>
             <Crear setListadoStage={setListadoStage}/>
         </aside>
         <footer className="footer">
